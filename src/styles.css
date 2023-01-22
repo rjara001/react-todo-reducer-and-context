@@ -1,0 +1,67 @@
+.App {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+.add-task {
+  margin-right: 10px;
+  border: 2px solid #98fb98;
+  border-radius: 4px;
+  padding: 4px 10px;
+  outline: none;
+  font-size: 18px;
+  min-width: 80%;
+  max-width: 300px;
+}
+
+.add {
+  font-size: 18px;
+}
+
+.baseButton {
+  border-radius: 4px;
+  padding: 5px 10px;
+  cursor: pointer;
+  outline: none;
+}
+
+.baseButton:hover {
+  filter: brightness(85%);
+}
+
+.done {
+  background-color: #d3e9f6;
+  border: 1px solid #d3e9f6;
+}
+
+.delete {
+  background-color: #fe626a;
+  border: 1px solid #fe626a;
+}
+
+.add {
+  background-color: #98fb98;
+  border: 1px solid #98fb98;
+}
+
+.undo {
+  background-color: #e7d1ff;
+  border: 1px solid #e7d1ff;
+}
+
+ol li {
+  margin: 5px 0;
+}
+
+ol li span {
+  margin-right: 50px;
+}
+
+ol li button:not(:last-child) {
+  margin-right: 5px;
+}
+
+.cross-out {
+  color: #666;
+  text-decoration: line-through;
+}
